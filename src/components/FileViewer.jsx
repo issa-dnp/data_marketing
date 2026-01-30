@@ -14,6 +14,7 @@ import KeywordMoneyPits from './KeywordMoneyPits'
 import SEOCTRAnalysis from './SEOCTRAnalysis'
 import SEOQuickWins from './SEOQuickWins'
 import BudgetAllocation from './BudgetAllocation'
+import AdsProfitability from './AdsProfitability'
 
 export default function FileViewer({ file, sectionColor, catalog }) {
   const [rows, setRows] = useState([])
@@ -138,6 +139,8 @@ export default function FileViewer({ file, sectionColor, catalog }) {
                 <SEOQuickWins file={file} />
               ) : file.id === 'mission-budget-strategy' ? (
                 <BudgetAllocation file={file} />
+              ) : file.id === 'mission-ads-profitability' ? (
+                <AdsProfitability file={file} />
               ) : (
                 <QuickChart rows={rows} sectionColor={sectionColor} />
               )}
