@@ -10,6 +10,7 @@ import KeywordCannibalization from './KeywordCannibalization'
 import CTRComparison from './CTRComparison'
 import PageCorrelation from './PageCorrelation'
 import AdsOrderCorrelation from './AdsOrderCorrelation'
+import KeywordMoneyPits from './KeywordMoneyPits'
 
 export default function FileViewer({ file, sectionColor, catalog }) {
   const [rows, setRows] = useState([])
@@ -126,6 +127,8 @@ export default function FileViewer({ file, sectionColor, catalog }) {
                 <PageCorrelation file={file} />
               ) : file.id === 'mission-ads-orders' ? (
                 <AdsOrderCorrelation file={file} />
+              ) : file.id === 'mission-money-pits' ? (
+                <KeywordMoneyPits file={file} />
               ) : (
                 <QuickChart rows={rows} sectionColor={sectionColor} />
               )}

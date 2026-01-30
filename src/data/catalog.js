@@ -11,6 +11,7 @@ const catalog = {
       { id: 'mission-ctr', path: '/data/ads/Mots_cles_pour_le_Reseau_de_Recherche(2025.08.03-2026.01.29).csv', label: 'Comparatif CTR (SEO vs ADS)', description: 'Performance relative SEO vs ADS' },
       { id: 'mission-correlation', path: '/data/analytics/Pages_et_ecrans_Chemin_de_la_page_et_classe_de_lecran (1).csv', label: 'Corrélation Analytics vs SEO', description: 'Impact du SEO sur les vues GA4' },
       { id: 'mission-ads-orders', path: '/data/ads/Serie_temporelle(2025.07.28-2026.01.29).csv', label: 'Ads vs Commandes', description: 'Impact des dépenses Ads sur les ventes' },
+      { id: 'mission-money-pits', path: '/data/ads/Mots_cles_pour_le_Reseau_de_Recherche(2025.08.03-2026.01.29).csv', label: 'Top 10 Gouffres (Keywords)', description: 'Mots-clés à coût élevé sans conversion' },
     ],
   },
   ads: {
