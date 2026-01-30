@@ -1,0 +1,211 @@
+# ----------------------------------------
+# Instantané des rapports
+# Compte : Getup Agency
+# Propriété : Bricometal.shop
+# ----------------------------------------
+#  
+# Date de début : 20260102
+# Date de fin : 20260129
+Utilisateurs actifs,Nouveaux utilisateurs,Durée d'engagement moyenne par utilisateur actif,Sessions
+16707,15601,104.21248578440175,22431
+
+#  
+# Date de début : 20260102
+# Date de fin : 20260129
+Source/Support de la session,Sessions,Événements clés,Revenu total
+google / organic,9523,54,10697.140001
+google / cpc,6765,27,2825.519999
+(direct) / (none),4128,29,5217.899998
+bing / organic,336,2,393.45
+bricometal.fr / referral,204,2,954.69
+p.monetico-services.com / referral,166,1,42.11
+fr.search.yahoo.com / referral,56,1,671.88
+youtube.com / referral,55,1,6.86
+faptrebi.fr / referral,52,1,295.48
+(data not available),51,0,0
+ecosia.org / organic,50,0,0
+chatgpt.com / (not set),48,1,78.25
+chatgpt.com / referral,48,0,0
+monportailsectionnel.com / referral,46,0,0
+qwant.com / organic,45,1,10.27
+yahoo / organic,41,0,0
+duckduckgo / organic,28,1,114.03
+mail.google.com / referral,23,0,0
+tapnav.com / referral,20,0,0
+accounts.google.com / referral,19,1,26.3
+antiphishing.vadesecure.com / referral,16,0,0
+m.facebook.com / referral,16,0,0
+search.brave.com / referral,15,0,0
+gemini.google.com / referral,13,0,0
+ntp.msn.com / referral,12,0,0
+mail02.orange.fr / referral,11,0,0
+mail01.orange.fr / referral,10,0,0
+messageriepro.orange.fr / referral,9,1,200.6
+perplexity / (not set),9,0,0
+na.account.amazon.com / referral,7,0,0
+zimbra.free.fr / referral,7,0,0
+getup.agency / referral,6,0,0
+tagassistant.google.com / referral,6,3,158.2
+search.lilo.org / referral,5,0,0
+fr.hotdeals.com / referral,4,0,0
+perplexity.ai / referral,4,1,53.34
+trustpilot / company_profile,4,0,0
+web-mail.laposte.net / referral,4,0,0
+webmail.sfr.fr / referral,4,0,0
+mail.infomaniak.com / referral,3,0,0
+yahoo.com / referral,3,0,0
+ecogine.org / referral,2,0,0
+facebook.com / referral,2,0,0
+frc-onenote.officeapps.live.com / referral,2,1,14.46
+in.pinterest.com / referral,2,0,0
+m.youtube.com / referral,2,0,0
+r.hotdeals.com / referral,2,0,0
+airbnbcare.lightning.force.com / referral,1,0,0
+bestseminartopics.com / referral,1,0,0
+bricometal.couponasion.com / referral,1,0,0
+chat.mistral.ai / referral,1,0,0
+claude.ai / referral,1,0,0
+images.search.yahoo.com / referral,1,0,0
+it.search.yahoo.com / referral,1,0,0
+linkedin.com / referral,1,0,0
+nextgeeker.com / referral,1,0,0
+ordissinaute.co.uk / referral,1,0,0
+pagesjaunes.fr / referral,1,0,0
+startpage.com / referral,1,0,0
+statics.teams.cdn.office.net / referral,1,0,0
+yandex.ru / referral,1,0,0
+
+#  
+# Date de début : 20260102
+# Date de fin : 20260129
+Première combinaison source/support de l'utilisateur,Utilisateurs actifs
+google / organic,6988
+google / cpc,5413
+(direct) / (none),3621
+bing / organic,229
+bricometal.fr / referral,126
+(data not available),56
+chatgpt.com / (not set),42
+qwant.com / organic,40
+fr.search.yahoo.com / referral,39
+youtube.com / referral,34
+chatgpt.com / referral,31
+ecosia.org / organic,30
+faptrebi.fr / referral,29
+yahoo / organic,28
+tapnav.com / referral,20
+duckduckgo / organic,18
+monportailsectionnel.com / referral,17
+m.facebook.com / referral,14
+search.brave.com / referral,12
+gemini.google.com / referral,9
+p.monetico-services.com / referral,9
+perplexity / (not set),9
+search.lilo.org / referral,4
+mail02.orange.fr / referral,3
+messageriepro.orange.fr / referral,3
+perplexity.ai / referral,3
+trustpilot / company_profile,3
+yahoo.com / referral,3
+facebook.com / referral,2
+m.youtube.com / referral,2
+mail01.orange.fr / referral,2
+statics.teams.cdn.office.net / referral,2
+webmail.sfr.fr / referral,2
+0s32t.mjt.lu / referral,1
+airbnbcare.lightning.force.com / referral,1
+bestseminartopics.com / referral,1
+brevo / email,1
+claude.ai / referral,1
+ecogine.org / referral,1
+frc-onenote.officeapps.live.com / referral,1
+getup.agency / referral,1
+images.search.yahoo.com / referral,1
+in.pinterest.com / referral,1
+it.search.yahoo.com / referral,1
+m365.cloud.microsoft / referral,1
+mail.google.com / referral,1
+mibc-fr-08.mailinblack.com / referral,1
+nextgeeker.com / referral,1
+ntp.msn.com / referral,1
+ordissinaute.co.uk / referral,1
+pagesjaunes.fr / referral,1
+startpage.com / referral,1
+tagassistant.google.com / referral,1
+yandex.ru / referral,1
+
+#  
+# Date de début : 20260102
+# Date de fin : 20260129
+Source/Support de la session,Sessions
+google / organic,9523
+google / cpc,6765
+(direct) / (none),4128
+bing / organic,336
+bricometal.fr / referral,204
+p.monetico-services.com / referral,166
+fr.search.yahoo.com / referral,56
+youtube.com / referral,55
+faptrebi.fr / referral,52
+(data not available),51
+ecosia.org / organic,50
+chatgpt.com / (not set),48
+chatgpt.com / referral,48
+monportailsectionnel.com / referral,46
+qwant.com / organic,45
+yahoo / organic,41
+duckduckgo / organic,28
+mail.google.com / referral,23
+tapnav.com / referral,20
+accounts.google.com / referral,19
+antiphishing.vadesecure.com / referral,16
+m.facebook.com / referral,16
+search.brave.com / referral,15
+gemini.google.com / referral,13
+ntp.msn.com / referral,12
+mail02.orange.fr / referral,11
+mail01.orange.fr / referral,10
+messageriepro.orange.fr / referral,9
+perplexity / (not set),9
+na.account.amazon.com / referral,7
+zimbra.free.fr / referral,7
+getup.agency / referral,6
+tagassistant.google.com / referral,6
+search.lilo.org / referral,5
+fr.hotdeals.com / referral,4
+perplexity.ai / referral,4
+trustpilot / company_profile,4
+web-mail.laposte.net / referral,4
+webmail.sfr.fr / referral,4
+mail.infomaniak.com / referral,3
+yahoo.com / referral,3
+ecogine.org / referral,2
+facebook.com / referral,2
+frc-onenote.officeapps.live.com / referral,2
+in.pinterest.com / referral,2
+m.youtube.com / referral,2
+r.hotdeals.com / referral,2
+airbnbcare.lightning.force.com / referral,1
+bestseminartopics.com / referral,1
+bricometal.couponasion.com / referral,1
+chat.mistral.ai / referral,1
+claude.ai / referral,1
+images.search.yahoo.com / referral,1
+it.search.yahoo.com / referral,1
+linkedin.com / referral,1
+nextgeeker.com / referral,1
+ordissinaute.co.uk / referral,1
+pagesjaunes.fr / referral,1
+startpage.com / referral,1
+statics.teams.cdn.office.net / referral,1
+yandex.ru / referral,1
+
+#  
+# Date de début : 20260102
+# Date de fin : 20260129
+Campagne Google Ads de la session,Sessions
+Pmax BricoMetal,4760
+2025 - Search - Produits,518
+Shopping FAC,405
+2025 - Shopping - Generale,397
+2025 - Search - Locinox,336
