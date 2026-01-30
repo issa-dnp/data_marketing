@@ -11,6 +11,7 @@ import CTRComparison from './CTRComparison'
 import PageCorrelation from './PageCorrelation'
 import AdsOrderCorrelation from './AdsOrderCorrelation'
 import KeywordMoneyPits from './KeywordMoneyPits'
+import SEOCTRAnalysis from './SEOCTRAnalysis'
 
 export default function FileViewer({ file, sectionColor, catalog }) {
   const [rows, setRows] = useState([])
@@ -129,6 +130,8 @@ export default function FileViewer({ file, sectionColor, catalog }) {
                 <AdsOrderCorrelation file={file} />
               ) : file.id === 'mission-money-pits' ? (
                 <KeywordMoneyPits file={file} />
+              ) : file.id === 'mission-seo-ctr' ? (
+                <SEOCTRAnalysis file={file} />
               ) : (
                 <QuickChart rows={rows} sectionColor={sectionColor} />
               )}
