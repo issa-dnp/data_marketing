@@ -13,6 +13,7 @@ import AdsOrderCorrelation from './AdsOrderCorrelation'
 import KeywordMoneyPits from './KeywordMoneyPits'
 import SEOCTRAnalysis from './SEOCTRAnalysis'
 import SEOQuickWins from './SEOQuickWins'
+import BudgetAllocation from './BudgetAllocation'
 
 export default function FileViewer({ file, sectionColor, catalog }) {
   const [rows, setRows] = useState([])
@@ -20,7 +21,7 @@ export default function FileViewer({ file, sectionColor, catalog }) {
   const [error, setError] = useState(null)
   const [view, setView] = useState('table')
 
-  const isMission = catalog.mission.files.some(f => f.id === file?.id)
+  const isMission = [...catalog.mission.files, ...catalog.analyse.files].some(f => f.id === file?.id)
 
   useEffect(() => {
     if (isMission) {
@@ -135,6 +136,8 @@ export default function FileViewer({ file, sectionColor, catalog }) {
                 <SEOCTRAnalysis file={file} />
               ) : file.id === 'mission-seo-quick-wins' ? (
                 <SEOQuickWins file={file} />
+              ) : file.id === 'mission-budget-strategy' ? (
+                <BudgetAllocation file={file} />
               ) : (
                 <QuickChart rows={rows} sectionColor={sectionColor} />
               )}

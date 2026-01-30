@@ -1,4 +1,13 @@
 const catalog = {
+  analyse: {
+    label: 'Analyse',
+    color: '#FF3D00', // Deep orange for strategy
+    files: [
+      { id: 'mission-budget-strategy', label: 'Stratégie Budget (€2000)', path: '/data/ads/Campagnes(2025.08.03-2026.01.29).csv', type: 'csv' },
+      { id: 'mission-seo-quick-wins', label: 'SEO Quick Wins (Pos. 5-15)', path: '/data/seo/ranktracker.csv', type: 'csv' },
+      { id: 'mission-seo-ctr', label: 'Opportunités SEO (CTR)', path: '/data/seo/Requetes.csv', type: 'csv' }
+    ]
+  },
   mission: {
     label: 'Mission',
     color: '#FFD700', // Gold color for distinctiveness
@@ -10,10 +19,8 @@ const catalog = {
       { id: 'mission-keywords', path: '/data/ads/Mots_cles_pour_le_Reseau_de_Recherche(2025.08.03-2026.01.29).csv', label: 'Cannibalisation Mots-Clés', description: 'Doublons SEO vs ADS' },
       { id: 'mission-ctr', path: '/data/ads/Mots_cles_pour_le_Reseau_de_Recherche(2025.08.03-2026.01.29).csv', label: 'Comparatif CTR (SEO vs ADS)', description: 'Performance relative SEO vs ADS' },
       { id: 'mission-correlation', path: '/data/analytics/Pages_et_ecrans_Chemin_de_la_page_et_classe_de_lecran (1).csv', label: 'Corrélation Analytics vs SEO', description: 'Impact du SEO sur les vues GA4' },
-      { id: 'mission-ads-orders', path: '/data/ads/Serie_temporelle(2025.07.28-2026.01.29).csv', label: 'Ads vs Commandes', description: 'Impact des dépenses Ads sur les ventes' },
+      { id: 'mission-ads-orders', path: '/data/ads/Serie_temporelle(2025.07.28-2026.01.29).csv', label: 'Ads vs Commandes', description: 'Impact des denses Ads sur les ventes' },
       { id: 'mission-money-pits', label: 'Top 10 Gouffres (Keywords)', path: '/data/ads/Mots_cles_pour_le_Reseau_de_Recherche(2025.08.03-2026.01.29).csv', type: 'csv' },
-      { id: 'mission-seo-ctr', label: 'Opportunités SEO (CTR)', path: '/data/seo/Requetes.csv', type: 'csv' },
-      { id: 'mission-seo-quick-wins', label: 'SEO Quick Wins (Pos. 5-15)', path: '/data/seo/ranktracker.csv', type: 'csv' }
     ],
   },
   ads: {
