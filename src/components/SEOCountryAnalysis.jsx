@@ -35,7 +35,8 @@ export default function SEOCountryAnalysis({ file }) {
                     const clics = parseNumber(row['Clics']) || 0
                     const ctrStr = row['CTR'] || '0%'
                     const ctr = parseFloat(ctrStr.replace('%', '').replace(',', '.')) || 0
-                    const position = parseNumber(row['Position']) || 0
+                    // Position uses dot as decimal in this CSV, parseNumber removes dots. Use parseFloat directly.
+                    const position = parseFloat(row['Position']) || 0
 
                     total += clics
                     if (row['Pays'] === 'France') {
@@ -138,41 +139,47 @@ export default function SEOCountryAnalysis({ file }) {
 
             <div className="bg-slate-900/50 border border-white/5 rounded-2xl p-6 backdrop-blur-sm shadow-xl min-h-[600px]">
                 <h3 className="text-lg font-bold text-white mb-6">Top 15 Pays par Volume de Clics</h3>
-                <div className="h-[500px] w-full">
-                    <ResponsiveContainer width="100%" height="100%">
-                        <BarChart
-                            data={data}
-                            layout="vertical"
-                            margin={{ top: 5, right: 30, left: 40, bottom: 5 }}
-                        >
-                            <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" horizontal={true} vertical={false} />
-                            <XAxis type="number" stroke="#94a3b8" hide />
-                            <YAxis
-                                type="category"
-                                dataKey="name"
-                                stroke="#94a3b8"
-                                tick={{ fill: '#e2e8f0', fontSize: 13, fontWeight: 500 }}
-                                width={150}
-                            />
-                            <Tooltip content={<CustomTooltip />} cursor={{ fill: '#ffffff05' }} />
-                            <Bar dataKey="clics" radius={[0, 4, 4, 0]} barSize={24}>
-                                {data.map((entry, index) => (
-                                    <Cell
-                                        key={`cell-${index}`}
-                                        fill={entry.name === 'France' ? '#3b82f6' : '#f59e0b'}
-                                    />
-                                ))}
-                                <LabelList
-                                    dataKey="fullCtr"
-                                    position="right"
-                                    fill="#94a3b8"
-                                    fontSize={12}
-                                    formatter={(val) => `CTR: ${val}`}
+                {data.length > 0 ? (
+                    <div className="h-[500px] w-full" style={{ minHeight: '500px' }}>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <BarChart
+                                data={data}
+                                layout="vertical"
+                                margin={{ top: 5, right: 30, left: 40, bottom: 5 }}
+                            >
+                                <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" horizontal={true} vertical={false} />
+                                <XAxis type="number" stroke="#94a3b8" hide />
+                                <YAxis
+                                    type="category"
+                                    dataKey="name"
+                                    stroke="#94a3b8"
+                                    tick={{ fill: '#e2e8f0', fontSize: 13, fontWeight: 500 }}
+                                    width={150}
                                 />
-                            </Bar>
-                        </BarChart>
-                    </ResponsiveContainer>
-                </div>
+                                <Tooltip content={<CustomTooltip />} cursor={{ fill: '#ffffff05' }} />
+                                <Bar dataKey="clics" radius={[0, 4, 4, 0]} barSize={24}>
+                                    {data.map((entry, index) => (
+                                        <Cell
+                                            key={`cell-${index}`}
+                                            fill={entry.name === 'France' ? '#3b82f6' : '#f59e0b'}
+                                        />
+                                    ))}
+                                    <LabelList
+                                        dataKey="fullCtr"
+                                        position="right"
+                                        fill="#94a3b8"
+                                        fontSize={12}
+                                        formatter={(val) => `CTR: ${val}`}
+                                    />
+                                </Bar>
+                            </BarChart>
+                        </ResponsiveContainer>
+                    </div>
+                ) : (
+                    <div className="h-[500px] w-full flex items-center justify-center text-slate-500">
+                        Aucune donnée disponible pour le graphique.
+                    </div>
+                )}
             </div>
         </div>
     )
