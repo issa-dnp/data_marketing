@@ -1,4 +1,4 @@
-# � Guide du Projet Dashboard Bricométal
+# 📊 Guide du Projet Dashboard Bricométal
 *Pour le Data Marketer Néophyte*
 
 Bienvenue dans ce projet ! Ce document a pour but de t'expliquer de façon **simple et claire** ce qu'est cette application, comment elle est organisée, et comment elle fonctionne, sans jargon technique complexe.
