@@ -22,6 +22,7 @@ const catalog = {
       { id: 'mission-seo-ctr', label: 'Opportunités SEO (CTR)', path: '/data/seo/Requetes.csv', type: 'csv' },
       { id: 'mission-seo-quick-wins', label: 'SEO Quick Wins (Pos. 5-15)', path: '/data/seo/ranktracker.csv', type: 'csv' },
       { id: 'mission-ads-profitability', label: 'Rentabilité Ads (Conv/Coût)', path: '/data/ads/Campagnes(2025.08.03-2026.01.29).csv', type: 'csv' },
+      { id: 'mission-seo-country', label: 'Analyse Pays (Trafic & CTR)', path: '/data/seo/Pays.csv', type: 'csv' },
     ],
   },
   ads: {
